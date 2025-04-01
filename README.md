@@ -1,4 +1,4 @@
-# ♟️An Nguyen's GitHub README Chess Tournament
+# ♟️README Chess Tournament
 
 This is an open chess tournament where ANYONE can play. That's the fun part.  
 It's your turn to play! Move a <!-- BEGIN TURN -->white<!-- END TURN --> piece.
@@ -74,3 +74,4 @@ When you click on a link and submit a new issue with the desired move, a GitHub 
 </details>
 
 ---
+
