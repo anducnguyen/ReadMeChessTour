@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50mm" height="50mm" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 50 50"><defs><linearGradient xlink:href="#a" id="b" x1="-540.02" x2="-501.82" y1="-470.59" y2="-470.59" gradientTransform="translate(545.92 492.79)" gradientUnits="userSpaceOnUse"/><linearGradient id="a"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#bba38a"/></linearGradient><linearGradient xlink:href="#a" id="c" x1="-536.12" x2="-505.75" y1="-451.55" y2="-451.55" gradientTransform="translate(545.92 492.79)" gradientUnits="userSpaceOnUse"/></defs><path fill="url(#b)" stroke="#323232" stroke-linejoin="round" stroke-width="1.6" d="M25 6.122c-2.635 0-4.771 2.098-4.771 4.685.002 1.855 1.118 3.534 2.846 4.283-.369 2.286-1.51 7.558-4.68 8.009-2.355.334-3.855-1.287-4.88-3.144a4.19 4.19 0 0 0 1.767-3.4c0-2.327-1.921-4.214-4.291-4.214S6.699 14.228 6.7 16.555c0 2.142 1.64 3.943 3.809 4.183l4.973 17.54h19.036l4.973-17.54c2.169-.24 3.807-2.041 3.809-4.183 0-2.327-1.922-4.214-4.292-4.214s-4.29 1.887-4.29 4.214a4.19 4.19 0 0 0 1.766 3.4c-1.025 1.857-2.525 3.478-4.88 3.144-3.17-.45-4.31-5.723-4.68-8.01 1.729-.748 2.845-2.427 2.847-4.282 0-2.587-2.136-4.685-4.77-4.685z"/><path d="M39.002 12.342a4.348 4.348 0 0 0-1.567.296c4.741 1.678 3.877 6.805.591 7.316L30.414 38.28h4.2l4.87-17.541c2.17-.241 3.808-2.042 3.81-4.184 0-2.327-1.922-4.214-4.292-4.213z" opacity=".1"/><path fill="url(#c)" stroke="#323232" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M13.227 38.286c-1.437 0-2.627 1.216-2.627 2.685v.545l.013 2.684H39.36l.013-2.684v-.545c0-1.468-1.19-2.685-2.627-2.685h-11.76z"/><g fill="#fff"><path d="M9.515 13.489c-.794 1.17-1.726 2.667-1.554 4.779 0 0-1.604-3.01 1.554-4.779zM23.659 7.23c-.853.874-2.37 2.934-2.133 5.374-.207-.084-1.73-3.893 2.133-5.374zM12.062 23.328l5.244 14.111-1.17.023z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+	Mattolható vezér (fehér)
+	Készült: queen-w.svg és king-w.svg felhasználásával
+	Felhasználási feltételek: Nevezd meg! - Így add tovább! (Creative Commons)
+	Uray M. János
+	2017-2018
+-->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="128" height="128" viewBox="0 0 45 45">
+	<!-- alap -->
+	<g fill="#FFF" stroke="#000" stroke-width="1.5" stroke-linejoin="round">
+		<!-- csápok -->
+		<path d="M 9,26 C 17.5,24.5 30,24.5 36,26 L 38.5,13.5 L 31,25 L 30.7,10.9 L 25.5,24.5 C 25.5,24.5 25,17.5 24.5,14.5 C 24.5,14.5 24,12 22.5,12 C 21,12 20.5,14.5 20.5,14.5 C 20,17.5 19.5,24.5 19.5,24.5 L 19.5,24.5 L 14.3,10.9 L 14,25 L 6.5,13.5 L 9,26 Z"/>
+		<!-- bojtok -->
+		<circle cx="6"    cy="12" r="2"/>
+		<circle cx="14"   cy="9"  r="2"/>
+		<circle cx="31"   cy="9"  r="2"/>
+		<circle cx="39"   cy="12" r="2"/>
+		<!-- kereszt -->
+		<path fill="none" stroke-linecap="round" d="M 22.5,11 L 22.5,5 M 20,7 L 25,7"/>
+		<!-- test -->
+		<path d="M 9,26 C 9,28 10.5,28 11.5,30 C 12.5,31.5 12.5,31 12,33.5 C 10.5,34.5 10.5,36 10.5,36 C 9,37.5 11,38.5 11,38.5 C 17.5,39.5 27.5,39.5 34,38.5 C 34,38.5 36,37.5 34.5,36 C 34.5,36 34.5,34.5 33,33.5 C 32.5,31 32.5,31.5 33.5,30 C 34.5,28 36,28 36,26 C 27.5,24.5 17.5,24.5 9,26 Z"/>
+	</g>
+	<!-- vonalak -->
+	<g fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round">
+		<path d="M 11.5,30 C 15,29 30,29 33.5,30"/>
+		<path d="M 12,33.5 C 18,32.5 27,32.5 33,33.5"/>
+	</g>
+</svg>
